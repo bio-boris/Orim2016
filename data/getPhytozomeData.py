@@ -7,7 +7,7 @@ import sys
 
 if(len(sys.argv) > 1):
         xml_file = open(sys.argv[1])
-else:   
+else:
         sys.exit("Need XML File")
 
 print "About to open " + sys.argv[1]
@@ -33,4 +33,4 @@ for url in urls:
 for download in downloads:
         filename = os.path.basename(download)
         print "echo " + filename
-        print "wget '" + download + "' --load-cookies cookies > " + filename
+        print "wget '" + download + "' --load-cookies cookies -O " + filename
