@@ -8,5 +8,6 @@ curl 'http://genome.jgi.doe.gov/ext-api/downloads/get-directory?organism=Phytozo
 
 ./getPhytozomeData.py phytozome11.xml > downloadList
 sh downloadList
+gunzip *
 
 
