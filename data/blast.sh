@@ -3,6 +3,7 @@
 source config.sh
 mkdir blast
 
-time ./formatdb.py $PROTEIN_FILES > formatdb_time
+time ./formatdb.py $PROTEIN_FILES 
+#real	1m48.594s
 
-time ./blastall_phytozome.py -i $I -b $B -topHits $TOPHITS -processors $PROCESSORS -eval $EVAL  > blastTime
+time ./blastall_phytozome.py -i $I -b $B -topHits $TOPHITS -processors $PROCESSORS -eval $EVAL  
