@@ -33,4 +33,4 @@ for url in urls:
 for download in downloads:
         filename = os.path.basename(download)
         print "echo " + filename
-        print "curl '" + download + "' -b cookies > " + filename
+        print "wget '" + download + "' --load-cookies cookies > " + filename
