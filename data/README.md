@@ -1,3 +1,4 @@
 # Download Phytozome 11
 
-Run the bash script to download phytozome11
+1. Edit username and password in the bash script
+2. run download.sh
