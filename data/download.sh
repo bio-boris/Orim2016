@@ -12,3 +12,6 @@ gunzip *
 ls | grep protein.fa$ > $PROTEIN_FILES
 
 
+mv *.fa data/
+mv *.txt data/
+mv *.gff3 data/
